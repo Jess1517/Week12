@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+   
+    <!--Create a full CRUD application of your choice using an API or JSON Server.
+
+     - Use JQuery/AJAX to interact with the API. 
+     - Use a form to post new entities.
+     - Build a way for users to update or delete entities.
+     - Include a way to get entities from the API.
+     - Use Bootstrap and CSS to style your project. -->
+
+<form>
+    <div>
+        <label for="fullName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="fullName" />
+    </div>
+    <div>
+        <label for="jobTitle" class="form-label">Job Title</label>
+        <input type="text" class="form-control" id="jobTitle"/>
+    </div>
+    <div>
+        <label for="companyName" class="form-label">Company Name</label>
+        <input type="text" class="form-control" id="companyName"/>
+    </div>
+    <button class="btn btn-primary" id="formSubmit">Submit</button>
+</form>
+
+
+<table class="table">
+    <thead>
+        <th>Full Name</th>
+        <th>Job Title</th>
+        <th>Company Name</th>
+    </thead>
+    <tbody id="tBody"></tbody>
+</table>
+
+
+
+<link rel="stylesheet"
+href="libs/bootstrap.css">
+
+<script src="libs/jquery.min.js"></script>
+<script src="libs/bootstrap.bundle.min.js"></script>
+
+<script src="./script.js"></script>
+
+
+</body>
+</html>
